@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color: #f7f1e3;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 80%; /* Adjust the max-width to resize the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+button {
+    padding: 30px 200px; /* Increased padding for a larger button */
+    max-width: 100%; /* Adjusted max-width for better proportion */
+    font-size: 40px; /* Increased font size for better readability */
+    font-weight: bold;
+    color: white;
+    background-color: #fe5e56; /* Pastel red color */
+    border: none;
+    border-radius: 10px; /* Slightly rounded corners for a modern look */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    position: static; /* Removed relative positioning to keep it naturally centered */
+}
+
+button:hover {
+    background-color: #ff5c5c; /* Slightly darker pastel red for hover effect */
+    transform: scale(1.05); /* Slight enlargement on hover for better UI feedback */
+}

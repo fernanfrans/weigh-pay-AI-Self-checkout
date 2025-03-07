@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f1e3;
+    font-family: 'Lato', sans-serif;
+    color: #2f2f2f;
+}
+.container {
+    margin: 10px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.chicken {
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    height: auto;
+}
+h1 {
+    margin-top: 30px;
+    color: #2f2f2f;
+}
+.logo-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pay {
+    width: 100%;
+    padding: 20px 40px;
+    font-size: 22px;
+    margin: 10px 0;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff8c42;
+    border: none;
+    color: rgb(155, 151, 151);
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+.pay:hover {
+    background-color: #e76f51;
+    transform: scale(1.05);
+}
+.pay:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(231, 111, 81, 0.5);
+}
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+}
+.table th {
+    background-color: #877e7e;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.table tr {
+    border-bottom: 1px solid #dddddd;
+}
+.table td {
+    padding: 10px;
+    text-align: center;
+}
+.table tr:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease-in-out;
+}
+.table-responsive {
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+#table-container {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
